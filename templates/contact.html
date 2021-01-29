@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <script src = "/static/main.js"></script>
+</head>
+<body>
+    <form id = "forms" action = "/send-email/" methods = ['GET']>
+        <label>Name</label>
+        <input id = "sender-name" type = "text" name = "sender name">
+
+        <br><br>
+
+        <label>Sender Email Address</label>
+        <input id = "sender-email" type = "email" name = "sender-email-address">
+
+        <br><br>
+        <label>Receiver Email Address</label>
+        <input id = "receiver-email" type = "email" name = "sender-email-address">
+
+        <br><br>
+
+        <label>Subject</label>
+        <input id = "sub" type = "text" name = "subject">
+
+        <br><br>
+
+        <label>Message</label>
+        <textarea id = "message" type = "text" name = "message"></textarea>
+
+        <br><br>
+
+        <button name = "send" type = "submit" value = "send">Submit</button>
+
+    </form>
+</body>
+</html>
