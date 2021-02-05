@@ -1,1 +1,1 @@
-web: gunicorn rend_templates.py: app
+web: gunicorn rend_templates: app
